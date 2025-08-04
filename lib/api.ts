@@ -1,4 +1,4 @@
-const API_BASE_URL = "http://localhost/optic-proline.com/public/api"
+const API_BASE_URL = process.env.API_BASE_URL;
 
 interface ApiResponse<T> {
   data?: T
