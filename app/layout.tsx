@@ -13,9 +13,10 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "OPTIC-PROLINE - Marketplace Optique",
   description: "Marketplace moderne pour produits optiques",
-    generator: 'v0.dev'
+  icons: {
+    icon: "/logo.png",
+  },
 }
-
 export default function RootLayout({
   children,
 }: {
